@@ -11,3 +11,42 @@ answer:
 9.The Hadoop cluster work on master-slave architecture.
 
 
+Q2-Explain the components of Hadoop framework.
+
+answer:
+
+The major components of Hadoop framework are 
+
+1.Hadoop common:
+Apache Foundation has pre-defined set of utilities and libraries that can be used by other modules within the Hadoop ecosystem. For example, if HBase and Hive want to access HDFS they need to make of Java archives (JAR files) that are stored in Hadoop Common.
+
+2.HDFS:
+HDFS is a distributed file system which is capable of storing large volumes of data on commodity hardware.It also uses blocks to store files but differs from traditional file systems by storing blocks contoguous memory locations thereby improving access time.
+HDFS is further divided into 2 sub-components:
+2.1 Name node:
+The name node is the master node and is responsible for file system namespace and controls access to files by clients.
+2.2 Data node:
+The data nodes handles read-write requests from clients and sactually stores the blocks.They are responsible for creation,deletion and replication of data blocks.
+
+3.MapReduce:
+MapReduce is the  data processing paradigm used by hadoop.It is a batch processing programming model.
+2.1 Job Tracker:
+It assigns the new MapReduce tasks to task trackers and also reassigns the tasks whose execution failed.
+2.2 Task Trackers:
+Task tracker actually execute the MapReduce tasks  and sends it status back to job tracker. 
+
+4.YARN:
+YARN forms an integral part of Hadoop 2.0.YARN is great enabler for dynamic resource utilization on Hadoop framework as users can run various Hadoop applications without having to bother about increasing workloads.
+
+5.PIG:
+Apache Pig is a convenient tools developed by Yahoo for analysing huge data sets efficiently and easily. It provides a high level data flow language Pig Latin that is optimized, extensible and easy to use. The most outstanding feature of Pig programs is that their structure is open to considerable parallelization making it easy for handling large data set.
+
+6.HIVE:
+Hive developed by Facebook is a data warehouse built on top of Hadoop and provides a simple language known as HiveQL similar to SQL for querying, data summarization and analysis. Hive makes querying faster through indexing.
+
+7.HBASE:
+HBase is a column-oriented database that uses HDFS for underlying storage of data. HBase supports random reads and also batch computations using MapReduce. With HBase NoSQL database enterprise can create large tables with millions of rows and columns on hardware machine. The best practice to use HBase is when there is a requirement for random ‘read or write’ access to big datasets.
+
+
+
+
