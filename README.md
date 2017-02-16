@@ -49,4 +49,16 @@ HBase is a column-oriented database that uses HDFS for underlying storage of dat
 
 
 
+Q3-Eplain the reasons to learn Big data technologies.
+
+answer:
+
+1.In the last decade,there has been an explosion of data owing to the rise of smart phones,social media,high speed internet etc.
+2.Before this phase, the data stored in databases was only transactional data.It was not viewed as an asset.
+3.But as said by a leading industrialist,data is the "new oil",organizations have realized that existing data can be analyzed to derive useful insights and make better decisions.
+4.But to carry out this task,there are 2 underlying challenges- storage and processing power.
+5.Technologies like Hadoop provide the solution to meet these challenges.
+6.An entire new field of data sciences has been created owing to big data.
+7.Organizations are rapidly investing in these technologies but there is shortage of talent.
+8.So Big Data offers exciting career opportunities and also chance to work with cutting edge technologies to make the world a better place.
 
